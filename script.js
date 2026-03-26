@@ -115,3 +115,52 @@ if (backToTopBtn) {
         });
     });
 }
+
+// ===== CONTACT FORM SUBMISSION (FORMSPREE) =====
+const contactForm = document.getElementById('contact-form');
+const formStatus = document.getElementById('form-status');
+const submitBtn = document.getElementById('submit-btn');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        // UI Loading State
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> SENDING...';
+        formStatus.className = 'form-status';
+        formStatus.textContent = '';
+
+        const formData = new FormData(contactForm);
+        
+        try {
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                formStatus.textContent = 'Message sent successfully! I will get back to you soon.';
+                formStatus.className = 'form-status success';
+                contactForm.reset();
+            } else {
+                const data = await response.json();
+                if (Object.hasOwn(data, 'errors')) {
+                    formStatus.textContent = data.errors.map(error => error.message).join(', ');
+                } else {
+                    formStatus.textContent = 'Oops! There was a problem submitting your form.';
+                }
+                formStatus.className = 'form-status error';
+            }
+        } catch (error) {
+            formStatus.textContent = 'Oops! There was a problem submitting your form.';
+            formStatus.className = 'form-status error';
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<i class="fas fa-paper-plane" style="margin-right: 8px;"></i> SEND INQUIRY';
+        }
+    });
+}
