@@ -198,9 +198,9 @@ Please create the following three files (`index.html`, `styles.css`, and `script
                         <div style="font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-muted); letter-spacing: 1.5px; text-transform: uppercase; font-weight: 800; margin-bottom: 0.6rem;">PROGRAM HIGHLIGHTS</div>
                         
                         <ul style="list-style: none; padding: 0; margin-bottom: 0;">
-                            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--text-muted);">â€”</span> Learned key advanced data structures like AVL Trees, Heaps, and Trees</li>
-                            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--text-muted);">â€”</span> Implemented efficient search and traversal techniques using BFS and DFS</li>
-                            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--text-muted);">â€”</span> Applied graph and tree algorithms to solve complex computational problems</li>
+                            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--text-muted);">-</span> Learned key advanced data structures like AVL Trees, Heaps, and Trees</li>
+                            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--text-muted);">-</span> Implemented efficient search and traversal techniques using BFS and DFS</li>
+                            <li style="position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--text-muted);">-</span> Applied graph and tree algorithms to solve complex computational problems</li>
                         </ul>
                     </div>
                     
