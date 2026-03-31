@@ -371,7 +371,7 @@ Please create the following three files (`index.html`, `styles.css`, and `script
                 <div class="badge-card">
                     <div class="badge-number">03</div>
                     <div class="badge-image">
-                        <img src="https://leetcode.com/static/images/badges/2024/gif/2024-50.gif" onerror="this.src='https://leetcode.com/static/images/badges/2024/gif/2024-01.gif'" alt="50 Days Badge">
+                        <img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge">
                     </div>
                     <div class="badge-text">
                         50 Days Badge<br>2026
@@ -382,7 +382,7 @@ Please create the following three files (`index.html`, `styles.css`, and `script
                 <div class="badge-card">
                     <div class="badge-number">04</div>
                     <div class="badge-image">
-                        <img src="https://leetcode.com/static/images/badges/2024/gif/2024-01.gif" alt="Jan LeetCoding">
+                        <img src="https://leetcode.com/static/images/badges/dcc-2026-1.png" alt="Jan LeetCoding">
                     </div>
                     <div class="badge-text">
                         Jan LeetCoding<br>Challenge
@@ -409,29 +409,29 @@ Please create the following three files (`index.html`, `styles.css`, and `script
                     <div class="prog-stats">
                         <div class="prog-stat">
                             <div class="prog-label">GLOBAL RANK</div>
-                            <div class="prog-value">990,707</div>
+                            <div class="prog-value">1,460,077</div>
                         </div>
                         <div class="prog-stat">
                             <div class="prog-label">SOLVED</div>
-                            <div class="prog-value">155/3873</div>
+                            <div class="prog-value">103/3887</div>
                         </div>
                         <div class="prog-stat">
                             <div class="prog-label">MAX STREAK</div>
-                            <div class="prog-value">93 Days</div>
+                            <div class="prog-value">39 Days</div>
                         </div>
                         <div class="prog-stat">
                             <div class="prog-label">TOTAL ACTIVE</div>
-                            <div class="prog-value">95 Days</div>
+                            <div class="prog-value">86 Days</div>
                         </div>
                     </div>
                     
                     <div class="prog-mastery">
                         <div class="prog-mastery-header">
                             <span class="prog-mastery-label">Skill Mastery</span>
-                            <span class="prog-mastery-percent">65%</span>
+                            <span class="prog-mastery-percent">45%</span>
                         </div>
                         <div class="prog-mastery-bar">
-                            <div class="prog-mastery-fill" style="width: 65%;"></div>
+                            <div class="prog-mastery-fill" style="width: 45%;"></div>
                         </div>
                     </div>
                     
